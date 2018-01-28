@@ -8,15 +8,17 @@ In erster Linie für mich selbst geschrieben, kann es dem einen oder anderen vie
 
 Inhalt:
 
-[TOC]
-
-[TeX-Umgebung](#tex-umgebung)
 
 
+[Voraussetzungen](#voraussetzungen)
+
+[Aufbau](#aufbau)
+
+
+
+<a name="voraussetzungen"/>
 
 ## Voraussetzungen
-
-<a name="tex-umgebung"/>
 
 ### TeX-Umgebung
 
@@ -24,7 +26,10 @@ Für das Kompilieren von LaTeX-Dokumenten muss eine TeX-Umgebung installiert wer
 ### IDE für LaTeX
 Gute Erfahrungen habe ich mit dem Programm `texmaker` gemacht, welches für verschiedene Betriebssysteme zur Verfügung steht.
 
+<a name="aufbau"/>
+
 ## Grundsätzlicher Aufbau eines LaTeX-Dokuments
+
 ### Präambel
 Zu Beginn des Quellcode-Dokuments befindet sich die sog. Preamble bzw. Präambel. Hierin befinden sich u.a. Informationen zur Art des Dokuments, es werden nötige Packete eingebunden usw.
 ### Das Dokument
