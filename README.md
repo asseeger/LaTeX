@@ -11,6 +11,7 @@ Inhalt:
 [TOC]
 
 ## Voraussetzungen
+
 ### TeX-Umgebung
 Für das Kompilieren von LaTeX-Dokumenten muss eine TeX-Umgebung installiert werden, für macOS bspw. MacTeX.
 ### IDE für LaTeX
