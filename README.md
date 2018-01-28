@@ -207,12 +207,12 @@ Das Glossarverzeichnis lässt sich an beliebiger Stelle im Dokument einbinden ü
 ```
 ## Tabellen
 Die einfachste Variante, eine Tabelle zu erstellen, ist es, einen Onlinegenerator hierzu zu verwenden, z.B. [www.tablesgenerator.com](http://www.tablesgenerator.com/).
-###Tabellenbreite beeinflussen
+### Tabellenbreite beeinflussen
 Um eine Tabelle auf die ganze Seitenbreite auszudehnen, kann das Package Tabularx mit `\usepackage{tabularx}` in der Präambel eingebunden werden.
 Anstelle der Zellenanweisung `l` für linksbündig, `c` für mittig oder `r` für rechtsbündig kann dann eine Zelle mit `X` definiert werden. Diese Spalte nutzt dann die verfügbare Seitenbreite aus, während die anderen Spalten so breit wie der maximale Inhalt sind.
-###Zeilenumbruch in einzelner Zelle
+### Zeilenumbruch in einzelner Zelle
 Einen Zeilenumbruch in einer einzelnen Zelle kann über den Befehl `\newline`erreicht werden.
-###Aufzählungen in Tabellen
+### Aufzählungen in Tabellen
 Für Aufzählungen in Tabellen kann das Paket `booktabs` eingebunden werden, welches den Befehl `\tabitem` definieren lässt. Hierzu folgenden Code in die Präambel einfügen:
 
 ```latex
