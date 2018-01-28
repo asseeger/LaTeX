@@ -11,7 +11,7 @@ Inhalt:
 [TOC]
 
 ## Voraussetzungen
-## #TeX-Umgebung
+### TeX-Umgebung
 Für das Kompilieren von LaTeX-Dokumenten muss eine TeX-Umgebung installiert werden, für macOS bspw. MacTeX.
 ### IDE für LaTeX
 Gute Erfahrungen habe ich mit dem Programm `texmaker` gemacht, welches für verschiedene Betriebssysteme zur Verfügung steht.
@@ -107,6 +107,7 @@ Some sourcecode...
 ...
 \end{lstlisting}
 ​```
+
 Je nach Art des Quellcodes kann auch Syntax-Highlighting definiert werden, um dies z.B. für Java zu erreichen, müssen die folgenden Zeilen in der Präambel hinzugefügt werden:
 ​```
 % Java Syntax highlighting Begin
