@@ -10,9 +10,16 @@ Inhalt:
 
 [TOC]
 
+[TeX-Umgebung](#tex-umgebung)
+
+
+
 ## Voraussetzungen
 
+<a name="tex-umgebung"/>
+
 ### TeX-Umgebung
+
 Für das Kompilieren von LaTeX-Dokumenten muss eine TeX-Umgebung installiert werden, für macOS bspw. MacTeX.
 ### IDE für LaTeX
 Gute Erfahrungen habe ich mit dem Programm `texmaker` gemacht, welches für verschiedene Betriebssysteme zur Verfügung steht.
