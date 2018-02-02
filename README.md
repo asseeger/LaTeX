@@ -2,17 +2,16 @@
 
 Autor: Andreas Seeger, asseeger@mac.com
 
-Dieses Dokument dient nicht als vollständige Referenz sondern vielmehr als Nachschlagewerk für Lessons Learnt im Umgang mit LaTeX.
+Dieses Dokument dient nicht als vollständige Referenz sondern vielmehr als Nachschlagewerk für Lessons Learnt im Umgang mit LaTeX. Auch handelt sich um ein Dokument, das sich ständig verändert, sobald sich mir neue Erkenntnisse ergeben.
 
 In erster Linie für mich selbst geschrieben, kann es dem einen oder anderen vielleicht auch helfen, allerdings gebe ich keine Gewähr auf Vollständigkeit, Richtigkeit oder Aktualität.
 
 Inhalt:
 
-
-
-[Voraussetzungen](#voraussetzungen)
-
-[Aufbau](#aufbau)
+- [Voraussetzungen](#voraussetzungen)
+- [Aufbau](#aufbau)
+- [Aufzählungen](#aufzaehlungen)
+- [Abbildungen](#abbildungen)
 
 
 
@@ -66,6 +65,8 @@ Erstellung des Titelblatts inkl. Bild
 ```
 Das so erstellte Titelblatt wird durch aufrufen von `\maketitle` in das Dokument eingefügt.
 
+<a name="aufzaehlungen"/>
+
 ## Aufzählungen
 
 ### Nicht-nummerierte Listen
@@ -95,7 +96,10 @@ Für die im deutschen gebräuchlichen An- bzw. Abführungszeichen stehen in Late
 - Anführungszeichen unten: ``"` ``
 - Abführungszeichen oben: `"'`
 
+<a name="abbildungen" />
+
 ## Abbildungen
+
 ### Abbildungen hinzufügen
 ```
 \begin{figure}[h]
