@@ -12,6 +12,7 @@ Inhalt:
 - [Aufbau](#aufbau)
 - [Aufzählungen](#aufzaehlungen)
 - [Abbildungen](#abbildungen)
+- [Umlaute](#umlaute)
 
 
 
@@ -48,7 +49,10 @@ Kommentare in LaTeX werden mit `%`am Zeilenanfang deklariert:
 %LaTeX-Kommentar
 ```
 
+<a name="umlaute"/>
+
 ## Umlaute
+
 Es ist möglich, verschiedene Packete zu verwenden.
 
 Was jedoch grundsätzlich immer, auch ohne Einbindung von Packeten, funktioniert, ist eine direkte Anweisung, z.B.
@@ -101,7 +105,7 @@ Für die im deutschen gebräuchlichen An- bzw. Abführungszeichen stehen in Late
 ## Abbildungen
 
 ### Abbildungen hinzufügen
-```
+```latex
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=.5]{../path/to/pic}
@@ -110,6 +114,16 @@ Für die im deutschen gebräuchlichen An- bzw. Abführungszeichen stehen in Late
 \end{figure}
 ```
 Hierbei steht der Schalter `h`für die Einbindung der Figur an der im Quelltext definierten Stelle. Wird es weggelassen, erscheint die Figur an unerwarteter Stelle.
+
+#### Grösse der Abbildung
+
+In der Regel bietet es sich an, die Breite der Abbildung der Textbreite anzupassen, etwa durch
+
+```latex
+\includegraphics[width=\textwidth]{patch/to/pic}
+```
+
+
 
 ### Abblildungsverzeichnis anzeigen
 Um eine Liste aller Abbildungen im Dokument anzuzeigen, muss der Bedehl `\listoffigures` verwendet werden.
