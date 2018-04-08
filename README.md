@@ -10,6 +10,7 @@ Inhalt:
 
 - [Voraussetzungen](#voraussetzungen)
 - [Aufbau](#aufbau)
+- [Kommentare](#comments)
 - [Aufzählungen](#aufzaehlungen)
 - [Abbildungen](#abbildungen)
 - [Umlaute](#umlaute)
@@ -43,6 +44,7 @@ Es gibt verschiedene Dokumentklassen für verschiedene Dokumentarten. Die besten
 Für Präsentationen bietet sich der Dokumenttyp `seminar` an.
 
 
+<a name="comments"/>
 ## Kommentare
 Kommentare in LaTeX werden mit `%`am Zeilenanfang deklariert:
 ```
@@ -238,8 +240,20 @@ Das Glossarverzeichnis lässt sich an beliebiger Stelle im Dokument einbinden ü
 ## Tabellen
 Die einfachste Variante, eine Tabelle zu erstellen, ist es, einen Onlinegenerator hierzu zu verwenden, z.B. [www.tablesgenerator.com](http://www.tablesgenerator.com/).
 ### Tabellenbreite beeinflussen
+#### \tabularx
 Um eine Tabelle auf die ganze Seitenbreite auszudehnen, kann das Package Tabularx mit `\usepackage{tabularx}` in der Präambel eingebunden werden.
 Anstelle der Zellenanweisung `l` für linksbündig, `c` für mittig oder `r` für rechtsbündig kann dann eine Zelle mit `X` definiert werden. Diese Spalte nutzt dann die verfügbare Seitenbreite aus, während die anderen Spalten so breit wie der maximale Inhalt sind.
+#### Linksbündig in X-Zelle von \tabularx
+X-Zellen in \tabularx sind standasrdmässig nach dem Blocksatz ausgerichtet. Um dies zu ändern, muss in der Spaltendeklaration getrickst werden. Ein Minimalbeispiel ist folgender Quellcode:
+```latex
+\begin{table}
+	begin{tabularx}{\textwidth}{|l|l|>{\raggedright\arraybackslash}X|X|}
+	\hline
+	Linksbündig 	& Linksbündig & Flexibel linksbündig &	Flexibel blocksatz\\ \hline
+	...	
+	end{tabularx}
+\end{table}
+```
 ### Zeilenumbruch in einzelner Zelle
 Einen Zeilenumbruch in einer einzelnen Zelle kann über den Befehl `\newline`erreicht werden.
 ### Aufzählungen in Tabellen
