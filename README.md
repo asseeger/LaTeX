@@ -14,6 +14,7 @@ Inhalt:
 - [Aufzählungen](#aufzaehlungen)
 - [Abbildungen](#abbildungen)
 - [Umlaute](#umlaute)
+- [Tabellen](#tables)
 
 
 
@@ -237,7 +238,10 @@ Das Glossarverzeichnis lässt sich an beliebiger Stelle im Dokument einbinden ü
 
  \printnoidxglossaries
 ```
+<a name="tables"/>
+
 ## Tabellen
+
 Die einfachste Variante, eine Tabelle zu erstellen, ist es, einen Onlinegenerator hierzu zu verwenden, z.B. [www.tablesgenerator.com](http://www.tablesgenerator.com/).
 ### Tabellenbreite beeinflussen
 #### \tabularx
