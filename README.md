@@ -272,3 +272,9 @@ Für Aufzählungen in Tabellen kann das Paket `booktabs` eingebunden werden, wel
 Mithilfe des Pakets `todonotes` können Notizen im Dokument angelegt werden, welche dann prominent erscheinen.
 Über den Befehl  `\listoftodos` kann an beliebiger Stelle im Dokument eine Übersicht der To Dos eingeblendet werden.
 Siehe http://www.pirbot.com/mirrors/ctan/macros/latex/contrib/todonotes/todonotes.pdf
+
+## PDFs einbinden
+% 1. Seite PDF inkl. Chapter-Überschrift (pagecommand)
+\includepdf[pages=1, scale=.85, pagecommand={\chapter{Datenschutzgrundkonzept}}]{3-appendix/its.pdf}
+% restliche Seiten des PDF
+\includepdf[pages=2-, scale=.85]{3-appendix/its.pdf}
